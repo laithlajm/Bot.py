@@ -1,0 +1,305 @@
+{
+  "balance": {
+    "6393580417": 105.64999999999999,
+    "6599432342": 67.0,
+    "5019230544": 95.05,
+    "7345910779": 0
+  },
+  "banned": [],
+  "api_key": "4bd8790b585b6d66081849b6670eb5ce601826aab1b1c8b7b814c5bfbd531c8e",
+  "servers": {
+    "usa1": {
+      "name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 1",
+      "endpoint": "https://iproxy.online/api/cn/v1/proxy-access",
+      "active": true
+    },
+    "usa2": {
+      "name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 2",
+      "endpoint": "https://iproxy.online/api/cn/v1/proxy-access",
+      "api_key": "829d922ff0527ac4cc6d674cfb4b562ce04d3b07f6570b381bf4fa51c806f0e4",
+      "active": true
+    },
+    "europe1": {
+      "name": "US 2 \ud83c\uddfa\ud83c\uddf8",
+      "endpoint": "https://iproxy.online/api/cn/v1/proxy-access",
+      "active": true,
+      "api_key": "c6a863a952c7bcd3c4d7787ee27f85d3009aa45a47f9251f956ce99dccd55101"
+    },
+    "usa verzion nj": {
+      "name": "USA Verzion NJ1",
+      "endpoint": "https://iproxy.online/api/cn/v1/proxy-access",
+      "api_key": "c23e6b9bc50c1fbc7213dee20d65c57a09b083dfc00574ae9bdd2852c8fd7a77",
+      "active": false
+    },
+    "usa nj 1": {
+      "name": "USA Verzion NJ 1\ud83c\uddfa\ud83c\uddf8",
+      "endpoint": "https://iproxy.online/api/cn/v1/proxy-access",
+      "api_key": "c23e6b9bc50c1fbc7213dee20d65c57a09b083dfc00574ae9bdd2852c8fd7a77",
+      "active": true
+    }
+  },
+  "users": [
+    "6393580417",
+    "6599432342",
+    "5019230544",
+    "7345910779"
+  ],
+  "proxies": {
+    "6393580417": [
+      {
+        "proxy_id": "1clLvkGxCB",
+        "ip": "45.63.5.159",
+        "port": 13990,
+        "hostname": "x634.fxdx.in",
+        "login": null,
+        "password": null,
+        "date_end": "2025-05-26 18:52 (GMT+3)",
+        "created": "2025-05-26 12:52",
+        "type": "inject",
+        "has_api": true,
+        "server_id": "usa1",
+        "server_name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 1",
+        "with_api": false
+      },
+      {
+        "proxy_id": "Q7KIXH6zWh",
+        "ip": "45.63.5.159",
+        "port": 13991,
+        "hostname": "x634.fxdx.in",
+        "login": null,
+        "password": null,
+        "date_end": "2025-05-26 19:00 (GMT+3)",
+        "created": "2025-05-26 13:00",
+        "type": "inject",
+        "has_api": true,
+        "server_id": "usa1",
+        "server_name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 1",
+        "with_api": false
+      },
+      {
+        "proxy_id": "1Zd0RU5Z6p",
+        "ip": "45.63.5.159",
+        "port": 13992,
+        "hostname": "x634.fxdx.in",
+        "login": null,
+        "password": null,
+        "date_end": "2025-05-26 19:05 (GMT+3)",
+        "created": "2025-05-26 16:05 (GMT+3)",
+        "type": "inject",
+        "has_api": true,
+        "server_id": "usa1",
+        "server_name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 1",
+        "with_api": false
+      },
+      {
+        "proxy_id": "4RbPblPkFU",
+        "ip": "216.128.138.24",
+        "port": 16482,
+        "hostname": "x162.fxdx.in",
+        "login": null,
+        "password": null,
+        "date_end": "2025-05-27 04:08 (GMT+3)",
+        "created": "2025-05-26 16:09 (GMT+3)",
+        "type": "inject",
+        "has_api": true,
+        "server_id": "usa2",
+        "server_name": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 2",
+        "with_api": false,
+        "swapped": true,
+        "original_server": "\ud83c\uddfa\ud83c\uddf8 \u0623\u0645\u0631\u064a\u0643\u0627 1",
+        "swap_date": "2025-05-26 13:09"
+      }
+    ],
+    "6599432342": [],
+    "5019230544": []
+  },
+  "prices": {
+    "3hours": 0.5,
+    "12hours": 0.45,
+    "day": 1,
+    "week": 7.0,
+    "month": 25.0,
+    "week_api": 10.5,
+    "month_api": 30.0
+  },
+  "payment_methods": {
+    "payeer": {
+      "address": "P1079786986",
+      "active": true,
+      "reason": "",
+      "min_amount": 1.0,
+      "max_amount": 1000,
+      "exchange_rate": 1,
+      "name": "Payeer"
+    },
+    "ltc": {
+      "address": "ltc1qmvmngacepq0l6fh69rkladzx9m3u7wk0g464hm",
+      "active": true,
+      "reason": "",
+      "min_amount": 1.0,
+      "max_amount": 1000.0,
+      "exchange_rate": 1,
+      "name": "LTC"
+    },
+    "trx": {
+      "address": "TWY1szzh4foDyDL5ZCT1S3gNcrS1rjgvF3",
+      "active": true,
+      "reason": "",
+      "min_amount": 1.0,
+      "max_amount": 1000.0,
+      "exchange_rate": 1,
+      "name": "TRX"
+    },
+    "usdt_bep20": {
+      "address": "0x99bbd0a9c8e27b7c18efb93332986c29023deb43",
+      "active": true,
+      "reason": "",
+      "min_amount": 1,
+      "max_amount": 1000,
+      "name": "USDT BEP20"
+    },
+    "usdt_trc20": {
+      "address": "TWY1szzh4foDyDL5ZCT1S3gNcrS1rjgvF3",
+      "active": true,
+      "reason": "",
+      "min_amount": 1,
+      "max_amount": 1000,
+      "name": "USDT TRC20"
+    },
+    "syriatelcash": {
+      "address": "99885498",
+      "active": true,
+      "reason": "",
+      "min_amount": 1,
+      "max_amount": 40.0,
+      "exchange_rate": 1,
+      "name": "Syriatelcash"
+    },
+    "vodafone_cash_egypt": {
+      "address": "01009065387",
+      "active": true,
+      "reason": "",
+      "min_amount": 1,
+      "max_amount": 1000,
+      "exchange_rate": 1,
+      "name": "Vodafone Cash Egypt"
+    }
+  },
+  "exchange_rates": {
+    "syrian_pound": 10000.0,
+    "egyptian_pound": 51.5
+  },
+  "pending_deposits": {
+    "1748186094": {
+      "user_id": "6393580417",
+      "amount": 2.0,
+      "method": "payeer",
+      "status": "pending",
+      "date": "2025-05-25 15:14",
+      "payment_address": "P1079786986",
+      "transaction_id": "\u0662\u0669\u0662\u0668\u0662\u0668\u0662\u0668\u0662\u0668"
+    },
+    "1748186117": {
+      "user_id": "6393580417",
+      "amount": 2.5,
+      "method": "syriatelcash",
+      "status": "pending",
+      "date": "2025-05-25 15:15",
+      "payment_address": "99885498",
+      "transaction_id": "\u0669\u0661\u0662\u0669\u0669\u0662\u0662"
+    },
+    "1748186133": {
+      "user_id": "6393580417",
+      "amount": 3.0,
+      "method": "vodafone_cash_egypt",
+      "status": "pending",
+      "date": "2025-05-25 15:15",
+      "payment_address": "01009065387",
+      "transaction_id": "\u0662\u0669"
+    },
+    "1748186167": {
+      "user_id": "6393580417",
+      "amount": 83.0,
+      "method": "ltc",
+      "status": "rejected",
+      "date": "2025-05-25 15:16",
+      "payment_address": "ltc1qmvmngacepq0l6fh69rkladzx9m3u7wk0g464hm",
+      "transaction_id": "\ud83d\udcb3 TRX"
+    },
+    "1748186179": {
+      "user_id": "6393580417",
+      "amount": 0.1,
+      "method": "trx",
+      "status": "approved",
+      "date": "2025-05-25 15:16",
+      "payment_address": "TWY1szzh4foDyDL5ZCT1S3gNcrS1rjgvF3",
+      "transaction_id": "\u0668\u0662",
+      "amount_edited": true,
+      "old_amount": 72.0,
+      "edit_note": "\u063a\u0634\u0627\u0634"
+    },
+    "1748186195": {
+      "user_id": "6393580417",
+      "amount": 92.0,
+      "method": "usdt_bep20",
+      "status": "approved",
+      "date": "2025-05-25 15:16",
+      "payment_address": "0x99bbd0a9c8e27b7c18efb93332986c29023deb43",
+      "transaction_id": "\u0669\u0662"
+    },
+    "1748186215": {
+      "user_id": "6393580417",
+      "amount": 82.0,
+      "method": "usdt_trc20",
+      "status": "pending",
+      "date": "2025-05-25 15:16",
+      "payment_address": "TWY1szzh4foDyDL5ZCT1S3gNcrS1rjgvF3",
+      "transaction_id": "\u0668\u0663"
+    },
+    "1748189062": {
+      "user_id": "6599432342",
+      "amount": 100.0,
+      "method": "payeer",
+      "status": "approved",
+      "date": "2025-05-25 16:04",
+      "payment_address": "P1079786986",
+      "transaction_id": "263815629"
+    },
+    "1748189152": {
+      "user_id": "5019230544",
+      "amount": 10.0,
+      "method": "payeer",
+      "status": "approved",
+      "date": "2025-05-25 16:05",
+      "payment_address": "P1079786986",
+      "transaction_id": "Wiwiwiwiw"
+    },
+    "1748194577": {
+      "user_id": "5019230544",
+      "amount": 100.0,
+      "method": "payeer",
+      "status": "approved",
+      "date": "2025-05-25 17:36",
+      "payment_address": "P1079786986",
+      "transaction_id": "30844443"
+    },
+    "1748265280": {
+      "user_id": "6393580417",
+      "amount": 77.0,
+      "method": "payeer",
+      "status": "pending",
+      "date": "2025-05-26 13:14",
+      "payment_address": "P1079786986",
+      "transaction_id": "77"
+    },
+    "1748265296": {
+      "user_id": "6393580417",
+      "amount": 32.0,
+      "method": "syriatelcash",
+      "status": "pending",
+      "date": "2025-05-26 13:14",
+      "payment_address": "99885498",
+      "transaction_id": "Ew"
+    }
+  }
+}
