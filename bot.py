@@ -7,7 +7,7 @@ import os
 import re
 import time
 
-BOT_TOKEN = "7832899750:AAE0pjYbyFtFYGSuqgipR-p0GtZmvlTvPSw"
+BOT_TOKEN = "7832899750:AAGmRu3Yew5HK1Wa1En6ByxFWZSiSpv4wR0"
 ADMIN_ID = 6393580417
 DATA_FILE = "data.json"
 
